@@ -21,7 +21,7 @@ and the resources it contains.
 
 
 ## Contributing
-If you are a teacher or interested contributor, send your GitHub user id to [Steve Hollasch], and
+If you are a teacher or interested contributor, send your GitHub user id to [Kenney Chan][], and
 I'll verify your status and add you as a contributor.
 
 If you would like to have us host your project, curriculum, or other TEALS-associated material, that
@@ -33,4 +33,4 @@ are always unlimited), so we'd love to include your contributions.
 [TEALSK12]:        https://github.com/TEALSK12
 [TEALS]:           http://tealsk12.com
 [TEALS on GitHub]: https://tealsk12.github.io/
-[Steve Hollasch]:  mailto:steve@hollasch.net
+[Kenney Chan]:     mailto:kencha@microsoft.com

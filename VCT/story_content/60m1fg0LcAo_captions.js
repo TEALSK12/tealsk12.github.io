@@ -1,0 +1,1 @@
+window.globalProvideData('caption', '{"data":"WEBVTT%0D%0AKind:%20captions%0D%0ASource:%20Articulate%20Closed%20Captions%20Editor%0D%0ASource%20Version:%206.49.24347.0%0D%0A%0D%0A00:00:00.124%20--%3E%2000:00:06.191%0D%0AJoin%20the%20forum%20to%20connect%20with%20other%20educators%20teaching%20with%20the%20AP%20CSP%20MakeCode%20course.%0D%0A%0D%0A"}')

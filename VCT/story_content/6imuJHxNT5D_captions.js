@@ -1,0 +1,1 @@
+window.globalProvideData('caption', '{"data":"WEBVTT%0D%0AKind:%20captions%0D%0ASource:%20Articulate%20Closed%20Captions%20Editor%0D%0ASource%20Version:%206.49.24347.0%0D%0A%0D%0A00:00:00.232%20--%3E%2000:00:05.261%0D%0AWatch%20the%20following%20video%20from%20the%20College%20Board%20to%20learn%20more%20about%20the%20Computer%20Science%20Principles.%0D%0A%0D%0A"}')

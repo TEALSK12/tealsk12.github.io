@@ -31,6 +31,6 @@ are always unlimited), so we'd love to include your contributions.
 
 
 [TEALSK12]:        https://github.com/TEALSK12
-[TEALS]:           http://tealsk12.com
+[TEALS]:           http://tealsk12.org
 [TEALS on GitHub]: https://tealsk12.github.io/
 [Kenney Chan]:     mailto:kencha@microsoft.com

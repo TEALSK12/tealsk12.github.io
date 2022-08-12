@@ -1,0 +1,1 @@
+window.globalProvideData('caption', '{"data":"WEBVTT%0D%0AKind:%20captions%0D%0ASource:%20Articulate%20Closed%20Captions%20Editor%0D%0ASource%20Version:%206.66.28355.0%0D%0A%0D%0A00:00:00.288%20--%3E%2000:00:05.300%0D%0AThats%20right.%20Active%20learning%20is%20Key%20in%20the%20demonstration%20phase.%0D%0A%0D%0A"}')

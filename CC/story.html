@@ -1,0 +1,385 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+  <meta charset="utf-8">
+  <!-- Created using Storyline 360 - http://www.articulate.com  -->
+  <!-- version: 3.66.28355.0 -->
+  <title>TEALS Program in Community College</title>
+  <meta http-equiv="x-ua-compatible" content="IE=edge"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no,shrink-to-fit=no,minimal-ui"/>
+  <meta name="apple-mobile-web-app-capable" content="yes"/>
+  <style>
+    html, body { height: 100%; padding: 0; margin: 0 }
+    #app { height: 100%; width: 100%; }
+  </style>
+
+  <script>
+    window.DS = {};
+    window.globals = {
+      DATA_PATH_BASE: '',
+      HAS_FRAME: true,
+      HAS_SLIDE: true,
+
+      lmsPresent: false,
+      tinCanPresent: false,
+      cmi5Present: false,
+      aoSupport: false,
+      scale: 'noscale',
+      captureRc: false,
+      browserSize: 'optimal',
+      bgColor: '#FFFFFF',
+      features: 'AccessibleVideo,IE11Warning,InsertSvgPicture,LayerPresentAsDialog,MultipleQuizTracking,QuestionCorrectVariable,UpdatedThemeEditor',
+      themeName: 'unified',
+      preloaderColor: '#8C8C8C',
+      suppressAnalytics: false,
+      productChannel: 'stable',
+      publishSource: 'storyline',
+      aid: 'aid|bbcb2351-1fa5-450a-9c52-3b963a1fdc25',
+      cid: '0d612bde-6c92-4ba1-b83c-77cdc33573fb',
+      playerVersion: '3.66.28355.0',
+      publishTimestamp: '2022-08-12T13:48:04.6303269Z',
+      maxIosVideoElements: 10,
+
+      
+      parseParams: function(qs) {
+        if (window.globals.parsedParams != null) {
+          return window.globals.parsedParams;
+        }
+        qs = (qs || window.location.search.substr(1)).split('+').join(' ');
+        var params = {},
+            tokens,
+            re = /[?&]?([^=]+)=([^&]*)/g;
+
+        while (tokens = re.exec(qs)) {
+          params[decodeURIComponent(tokens[1]).trim()] =
+            decodeURIComponent(tokens[2]).trim();
+        }
+        window.globals.parsedParams = params;
+        return params;
+      }
+
+    };
+  </script>
+  <script>
+    var isIe11 = ('ActiveXObject' in window || window.MSBlobBuilder != null)
+      && window.msCrypto != null && !window.ActiveXObject;
+    if (isIe11 && window.globals.features.indexOf('IE11Warning') != -1) {
+      window.globals.unsupportedBrowser = true;
+      document.write(atob('PHN0eWxlPg0KICBAZm9udC1mYWNlIHsNCiAgICBmb250LWZhbWlseTogIk9wZW4gU2FucyBGdWxsIjsNCiAgICBmb250LXN0eWxlOiBub3JtYWw7DQogICAgZm9udC13ZWlnaHQ6IDQwMDsNCiAgICBzcmM6IHVybCgiLi9odG1sNS9saWIvc3R5bGVzaGVldHMvbW9iaWxlLWZvbnRzL29wZW4tc2Fucy1yZWd1bGFyLndvZmYiKSBmb3JtYXQoIndvZmYiKTsNCiAgfQ0KDQogICogew0KICAgIG1hcmdpbjogMDsNCiAgICBwYWRkaW5nOiAwOw0KICB9DQoNCiAgYm9keSwNCiAgaHRtbCB7DQogICAgYmFja2dyb3VuZDogYmxhY2s7DQogICAgY29sb3I6IHdoaXRlOw0KICAgIGZvbnQtZmFtaWx5OiAiT3BlbiBTYW5zIEZ1bGwiLCBzYW5zLXNlcmlmOw0KICAgIGZvbnQtc2l6ZTogMTZweDsNCiAgICBoZWlnaHQ6IDEwMCU7DQogICAgdGV4dC1hbGlnbjogY2VudGVyOw0KICAgIG92ZXJmbG93OiBoaWRkZW47DQogIH0NCg0KICAuc2xpZGUtbG9hZGVyIHsNCiAgICBkaXNwbGF5OiBub25lOw0KICB9DQoNCiAgLm1vYmlsZS1zdGFydC1jb3Vyc2UtdGl0bGUgew0KICAgIGZvbnQtc2l6ZTogMjlweDsNCiAgICBwYWRkaW5nLWJvdHRvbTogMzMuNzVweDsNCiAgICBwYWRkaW5nLXRvcDogMzMuNzVweDsNCiAgICB0ZXh0LXNoYWRvdzogNHB4IDRweCAyNXB4IHJnYigwLCAwLCAwLCAuMyk7DQogICAgY29sb3I6ICNlOGU4ZTg7DQogICAgei1pbmRleDogOTk5Ow0KICB9DQoNCiAgcCB7DQogICAgZm9udC1zaXplOiAxLjFlbTsNCiAgfQ0KDQogIHNwYW4gew0KICAgIGhlaWdodDogMTAwJTsNCiAgICB2ZXJ0aWNhbC1hbGlnbjogbWlkZGxlOw0KICAgIGRpc3BsYXk6IGlubGluZS1ibG9jazsNCiAgfQ0KDQogIC5jb250ZW50IHsNCiAgICBiYWNrZ3JvdW5kOiAjMDAwOw0KICAgIHRleHQtYWxpZ246IGxlZnQ7DQogICAgZm9udC1zaXplOiAxNXB4Ow0KICAgIGNvbG9yOiAjYWFhOw0KICAgIHdpZHRoOiA4MCU7DQogICAgbWF4LXdpZHRoOiA1MzVweDsNCiAgICB2ZXJ0aWNhbC1hbGlnbjogbWlkZGxlOw0KICAgIGRpc3BsYXk6IGlubGluZS1ibG9jazsNCiAgfQ0KDQogIC5idG4tY29udGFpbiB7DQogICAgcG9zaXRpb246IHJlbGF0aXZlOw0KICAgIG1hcmdpbi10b3A6IDNlbTsNCiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7DQogIH0NCg0KICAuaWUxMS13YXJuIHAgYSB7DQogICAgY29sb3I6ICM1ZGIwZmYgIWltcG9ydGFudDsNCiAgICB0ZXh0LWRlY29yYXRpb246IHVuZGVybGluZSAhaW1wb3J0YW50Ow0KICB9DQoNCiAgYS5sZWFybiB7DQogICAgcG9zaXRpb246IHJlbGF0aXZlOw0KICAgIGZsb2F0OiBsZWZ0Ow0KICAgIG1hcmdpbi1yaWdodDogMmVtOw0KICAgIGRpc3BsYXk6IGlubGluZS1ibG9jazsNCiAgICBib3JkZXI6IDFweCBzb2xpZCB3aGl0ZTsNCiAgICBjb2xvcjogYmxhY2sgIWltcG9ydGFudDsNCiAgICB0ZXh0LWRlY29yYXRpb246IG5vbmU7DQogICAgcGFkZGluZzogLjVlbTsNCiAgICBwYWRkaW5nOiAxOHB4Ow0KICAgIHBhZGRpbmctbGVmdDogNTBweDsNCiAgICBwYWRkaW5nLXJpZ2h0OiAzMHB4Ow0KICAgIGJhY2tncm91bmQ6ICNmZmY7DQogICAgYm9yZGVyLXJhZGl1czogNDBweDsNCiAgICBjdXJzb3I6IHBvaW50ZXI7DQogIH0NCg0KICBhLmxlYXJuOmFmdGVyIHsNCiAgICBjb250ZW50OiAiIjsNCiAgICBwb3NpdGlvbjogYWJzb2x1dGU7DQogICAgcG9pbnRlci1ldmVudHM6IG5vbmU7DQogICAgbGVmdDogMjBweDsNCiAgICB0b3A6IDUwJTsNCiAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZVkoLTUwJSk7DQogICAgd2lkdGg6IDA7DQogICAgaGVpZ2h0OiAwOw0KICAgIGJvcmRlci1zdHlsZTogc29saWQ7DQogICAgYm9yZGVyLXdpZHRoOiA5cHggMCA5cHggMTVweDsNCiAgICBib3JkZXItY29sb3I6IHRyYW5zcGFyZW50IHRyYW5zcGFyZW50IHRyYW5zcGFyZW50ICM2ZTZlNmU7DQogICAgY2xlYXI6IGJvdGg7DQogIH0NCg0KICAuaWUxMS13YXJuIHsNCiAgICBwb3NpdGlvbjogZml4ZWQ7DQogICAgd2lkdGg6IDEwMCU7DQogICAgaGVpZ2h0OiAxMDAlOw0KICAgIGJhY2tncm91bmQ6IGJsYWNrOw0KICB9DQo8L3N0eWxlPg0KDQo8ZGl2IGNsYXNzPSJpZTExLXdhcm4iPg0KICA8c3Bhbj48L3NwYW4+DQogIDxkaXYgY2xhc3M9ImNvbnRlbnQiPg0KICAgIDxkaXYgY2xhc3M9Im1vYmlsZS1zdGFydC1jb3Vyc2UtdGl0bGUiPkVuZCBvZiBTdXBwb3J0IGZvciBJbnRlcm5ldCBFeHBsb3JlciAxMTwvZGl2Pg0KICAgIDxwPkZvbGxvd2luZyBNaWNyb3NvZnQncyBsZWFkLCB3ZSBlbmRlZCBzdXBwb3J0IGZvciBJbnRlcm5ldCBFeHBsb3JlciAxMSAoSUUxMSkuDQogICAgICBBcyBvZiBKdWx5IDIwMjIsIHlvdSBjYW4gbm8gbG9uZ2VyIHZpZXcgUmlzZSAzNjAsIFN0b3J5bGluZSAzNjAsIG9yIFN0dWRpbyAzNjANCiAgICAgIGNvdXJzZXMgaW4gSUUxMS4gVXNlIHRoZSBsYXRlc3QgdmVyc2lvbiBvZiBhIHN1cHBvcnRlZCBicm93c2VyIC0NCiAgICAgIDxhIGhyZWY9Imh0dHBzOi8vd3d3Lmdvb2dsZS5jb20vY2hyb21lL2Rvd25sb2Fkcy8iIHRhcmdldD0iX2JsYW5rIj5Hb29nbGUgQ2hyb21lPC9hPiwNCiAgICAgIDxhIGhyZWY9Imh0dHBzOi8vd3d3Lm1pY3Jvc29mdC5jb20vZW4tdXMvZWRnZSIgdGFyZ2V0PSJfYmxhbmsiPk1pY3Jvc29mdCBFZGdlPC9hPiwNCiAgICAgIG9yDQogICAgICA8YSBocmVmPSJodHRwczovL3d3dy5tb3ppbGxhLm9yZy9lbi1VUy9maXJlZm94L25ldy8iIHRhcmdldD0iX2JsYW5rIj5Nb3ppbGxhIEZpcmVmb3g8L2E+Lg0KICAgIDwvcD4NCiAgICA8ZGl2IGNsYXNzPSJidG4tY29udGFpbiI+DQogICAgICA8YSBjbGFzcz0ibGVhcm4iIGhyZWY9Imh0dHBzOi8vYXJ0aWN1bGF0ZS5jb20vc3VwcG9ydC9hcnRpY2xlL0VuZC1vZi1TdXBwb3J0LWZvci1JbnRlcm5ldC1FeHBsb3Jlci0xMSINCiAgICAgICAgdGFyZ2V0PSJfYmxhbmsiPkxlYXJuIE1vcmU8L2E+DQogICAgPC9kaXY+DQogIDwvZGl2Pg0KPC9kaXY+DQo='));
+    }
+  </script>
+  
+  <script>window.THREE = { };</script>
+  
+</head>
+<body style="background: #FFFFFF" class="cs-HTML theme-unified">
+  <!-- 360 -->
+  <script>!function(e){var i=/iPhone/i,o=/iPod/i,n=/iPad/i,t=/(?=.*\bAndroid\b)(?=.*\bMobile\b)/i,d=/Android/i,s=/(?=.*\bAndroid\b)(?=.*\bSD4930UR\b)/i,b=/(?=.*\bAndroid\b)(?=.*\b(?:KFOT|KFTT|KFJWI|KFJWA|KFSOWI|KFTHWI|KFTHWA|KFAPWI|KFAPWA|KFARWI|KFASWI|KFSAWI|KFSAWA)\b)/i,r=/IEMobile/i,h=/(?=.*\bWindows\b)(?=.*\bARM\b)/i,a=/BlackBerry/i,l=/BB10/i,p=/Opera Mini/i,f=/(CriOS|Chrome)(?=.*\bMobile\b)/i,u=/(?=.*\bFirefox\b)(?=.*\bMobile\b)/i,c=new RegExp("(?:Nexus 7|BNTV250|Kindle Fire|Silk|GT-P1000)","i"),w=function(e,i){return e.test(i)},A=function(e){var A=e||navigator.userAgent,v=A.split("[FBAN");if(void 0!==v[1]&&(A=v[0]),this.apple={phone:w(i,A),ipod:w(o,A),tablet:!w(i,A)&&w(n,A),device:w(i,A)||w(o,A)||w(n,A)},this.amazon={phone:w(s,A),tablet:!w(s,A)&&w(b,A),device:w(s,A)||w(b,A)},this.android={phone:w(s,A)||w(t,A),tablet:!w(s,A)&&!w(t,A)&&(w(b,A)||w(d,A)),device:w(s,A)||w(b,A)||w(t,A)||w(d,A)},this.windows={phone:w(r,A),tablet:w(h,A),device:w(r,A)||w(h,A)},this.other={blackberry:w(a,A),blackberry10:w(l,A),opera:w(p,A),firefox:w(u,A),chrome:w(f,A),device:w(a,A)||w(l,A)||w(p,A)||w(u,A)||w(f,A)},this.seven_inch=w(c,A),this.any=this.apple.device||this.android.device||this.windows.device||this.other.device||this.seven_inch,this.phone=this.apple.phone||this.android.phone||this.windows.phone,this.tablet=this.apple.tablet||this.android.tablet||this.windows.tablet,"undefined"==typeof window)return this},v=function(){var e=new A;return e.Class=A,e};"undefined"!=typeof module&&module.exports&&"undefined"==typeof window?module.exports=A:"undefined"!=typeof module&&module.exports&&"undefined"!=typeof window?module.exports=v():"function"==typeof define&&define.amd?define("isMobile",[],e.isMobile=v()):e.isMobile=v()}(this);
+    window.isMobile.apple.tablet = window.isMobile.apple.tablet ||
+      (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
+    window.isMobile.apple.device = window.isMobile.apple.device || window.isMobile.apple.tablet;
+    window.isMobile.tablet = window.isMobile.tablet || window.isMobile.apple.tablet;
+    window.isMobile.any = window.isMobile.any || window.isMobile.apple.tablet;
+  </script>
+
+  <div id="focus-sink" tabindex="-1"></div>
+
+  <div id="preso"></div>
+  <script>
+    (function() {
+
+      var classTypes = [ 'desktop', 'mobile', 'phone', 'tablet' ];
+
+      var addDeviceClasses = function(prefix, testObj) {
+        var curr, i;
+        for (i = 0; i < classTypes.length; i++) {
+          curr = classTypes[i];
+          if (testObj[curr]) {
+            document.body.classList.add(prefix + curr);
+          }
+        }
+      };
+
+      var params = window.globals.parseParams(),
+          isDevicePreview = params.devicepreview === '1',
+          isPhoneOverride = params.deviceType === 'phone' || (isDevicePreview && params.phone == '1'),
+          isTabletOverride = (params.deviceType === 'tablet' || isDevicePreview) && !isPhoneOverride,
+          isMobileOverride = isPhoneOverride || isTabletOverride;
+
+      var deviceView = {
+        desktop: !window.isMobile.any && !isMobileOverride,
+        mobile: window.isMobile.any || isMobileOverride,
+        phone: isPhoneOverride || (window.isMobile.phone && !isTabletOverride),
+        tablet: isTabletOverride || window.isMobile.tablet
+      };
+
+      window.globals.deviceView = deviceView;
+      window.isMobile.desktop = !window.isMobile.any;
+      window.isMobile.mobile = window.isMobile.any;
+
+      addDeviceClasses('view-', deviceView);
+
+    })();
+  </script>
+  
+  <script src='story_content/user.js' type=text/javascript></script>
+  <div class="slide-loader"></div>
+
+  <script>
+    var doc = document, loader = doc.body.querySelector('.slide-loader'); [ 1, 2, 3 ].forEach(function(n) { var d = doc.createElement('div'); d.style.backgroundColor = window.globals.preloaderColor; d.classList.add('mobile-loader-dot'); d.classList.add('dot' + n); loader.appendChild(d); });
+  </script>
+
+  <div class="mobile-load-title-overlay" style="display: none">
+    <div class="mobile-load-title">TEALS Program in Community College</div>
+  </div>
+
+  <div class="mobile-chrome-warning"></div>
+
+  <div class="warn-connection-dialog" style="display:none">
+  <div class="warn-connection-content">
+    <p>Internet connection lost</p>
+    <p class="warn-connection-status"></p>
+    <div class="warn-ui"></div>
+  </div>
+</div>
+
+<style>
+  .warn-connection-dialog {
+    background: transparent;
+    pointer-events: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+  }
+
+  .warn-connection-content {
+    position: absolute;
+    width: 170px;
+    border-radius: 10px;
+    background: white;
+    border: 1px solid #ccc;
+    color: black;
+    box-shadow: 0 5px 40px rgba(0, 0, 0, 5%);
+    padding: .6em;
+    padding-bottom: none;
+    right: 1em;
+    top: 1em;
+    transition: all 150ms ease-out;
+  }
+
+  .warn-connection-dialog.highlight .warn-connection-content {
+    background: #ff7575;
+    transform: scale(1.05);
+  }
+
+  .warn-connection-content p {
+    margin: 0; padding: 0;
+  }
+
+  .warn-ui {
+    position: absolute;
+    bottom: 1em;
+    width: 100%;
+  }
+  .warn-connection-status {
+    color: red;
+  }
+
+  .highlight .warn-connection-status {
+    color: white;
+  }
+
+  .is-offline .cs-panel * {
+    pointer-events: none !important;
+  }
+
+  .is-offline .cs-panel {
+    pointer-events: all !important;
+  }
+
+  .is-offline #nav-controls * {
+    pointer-events: none !important;
+  }
+
+  .is-offline #nav-controls {
+    pointer-events: all !important;
+  }
+</style>
+
+<script>
+  (function() {
+    window.DS.connection = {
+      warningShown: false,
+      assets: {},
+      loadingAssetGroup: false
+    };
+
+    // @TODO this is POC code and can be cleaned up a bit more if we move forward
+    // with the feature
+
+    // The `window.globals.features` variable must be set in `webpack.dev.config` when testing locally - it is not enough
+    // to have it in the data - but it must be set there as well.
+    var useConnectionMessages = window.AbortController != null && window.location.protocol != 'file:' &&
+      window.globals.features.indexOf('ConnectionMessages') != -1;
+
+    window.DS.connection.useConnectionMessages = useConnectionMessages
+
+    var noConnection = 'retrying...';
+    var warnEl = document.querySelector('.warn-connection-dialog');
+    var statusEl = document.querySelector('.warn-connection-status');
+
+    var assetCount = 0;
+    var checkLoadedId;
+
+    function checkAssetsReady() {
+      for (var i in DS.connection.assets) {
+        if (!DS.connection.assets[i].success) {
+          return false;
+        }
+      }
+      return true;
+    }
+
+    function stopAssetGroup() {
+      if (!useConnectionMessages) { return; }
+
+      assetCount = 0;
+
+      DS.connection.oldAssetGroup = DS.connection.assets;
+      DS.connection.assets = {};
+      DS.connection.loadingAssetGroup = false;
+      clearInterval(checkLoadedId);
+    }
+
+    function startAssetGroup() {
+      if (!useConnectionMessages) { return; }
+      var ticks = 0;
+      clearInterval(checkLoadedId);
+      checkLoadedId = setInterval(function() {
+        var loaded = 0;
+        if (assetCount === 0 && loaded === 0) {
+          clearInterval(checkLoadedId);
+          return;
+        }
+
+        for (var i in DS.connection.assets) {
+          if (DS.connection.assets[i].success) {
+            loaded++;
+          }
+        }
+
+        if (assetCount === loaded && checkAssetsReady()) {
+          for (var i in DS.connection.assets) {
+            if (DS.connection.assets[i].action) {
+              DS.connection.assets[i].action();
+            }
+          }
+          hideWarning();
+          stopAssetGroup();
+        }
+      }, 100)
+    }
+
+    function requiredAsset(url, action, retry, type) {
+      if (!useConnectionMessages) { return; }
+      if (DS.connection.assets[url]) { return; }
+
+      DS.connection.assets[url] = {
+        success: false, action: action, retry: retry, type: type
+      };
+      assetCount = Object.keys(DS.connection.assets).length;
+      if (!DS.connection.loadingAssetGroup) {
+        startAssetGroup();
+      }
+      DS.connection.loadingAssetGroup = true;
+    }
+
+    function assetLoaded(url) {
+      if (!useConnectionMessages) { return; }
+      if (DS.connection.assets[url]) {
+        DS.connection.assets[url].success = true;
+      }
+    }
+
+    function assetFailed(url) {
+      if (!useConnectionMessages) { return; }
+      if (!DS.connection.assets[url]) {
+        if (/\.js$/.test(url)) {
+          setTimeout(function() {
+            if (DS.connection.lastSlideLoaded != null) {
+              DS.connection.lastSlideLoaded();
+            }
+          }, 300);
+        }
+        return;
+      }
+      if (!DS.connection.warningShown) { showWarning(); }
+      if (DS.connection.assets[url].retry) {
+        setTimeout(function() {
+          if (!DS.connection.assets[url].success) {
+            DS.connection.assets[url].retry()
+          }
+        }, 200);
+      }
+    }
+
+    function hideWarning() {
+      document.body.classList.remove('is-offline');
+      DS.connection.warningShown = false;
+      statusEl.innerHTML = 'connected!';
+      warnEl.style.display = 'none';
+    }
+    DS.connection.hideWarning = hideWarning
+
+    function showWarning(btn) {
+      document.body.classList.add('is-offline')
+      DS.connection.warningShown = true;
+      warnEl.style.display = 'block';
+      statusEl.innerHTML = noConnection;
+    }
+
+    function highlighWarning() {
+      warnEl.classList.add('highlight');
+      setTimeout(function() {
+        warnEl.classList.remove('highlight');
+      }, 500);
+    }
+
+    statusEl.innerHTML = noConnection;
+
+    // these will all be noops if the feature flag isn't set in
+    // the data and `window.globals.features`
+    DS.connection.requiredAsset = requiredAsset;
+    DS.connection.assetLoaded = assetLoaded;
+    DS.connection.assetFailed = assetFailed;
+    DS.connection.stopAssetGroup = stopAssetGroup;
+    DS.connection.startAssetGroup = startAssetGroup;
+
+    document.addEventListener('pointerup', e => {
+      if (e.target.classList.contains('cs-panel') ||
+        e.target.classList.contains('bottom-ui-bg')  ||
+        e.target.classList.contains('slide-object')  ||
+        e.target.id === 'nav-controls') {
+        highlighWarning();
+      }
+    });
+  })();
+</script>
+
+
+  <script>
+    
+    if (window.autoSpider && window.vInterfaceObject) {
+      document.querySelector('.mobile-load-title-overlay').style.display = 'none';
+    }
+  </script>
+
+  
+
+  <link rel="stylesheet" href="html5/data/css/output.min.css" data-noprefix/>
+</body>
+<script src="html5/lib/scripts/bootstrapper.min.js"></script>
+</html>

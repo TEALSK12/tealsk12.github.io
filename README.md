@@ -19,18 +19,7 @@ something belongs, then just add it to the general issues and we'll sort it out.
 Our main web page for [TEALS on GitHub] contains a general introduction to our GitHub organization
 and the resources it contains.
 
-
-## Contributing
-If you are a teacher or interested contributor, send your GitHub user id to [Kenney Chan][], and
-I'll verify your status and add you as a contributor.
-
-If you would like to have us host your project, curriculum, or other TEALS-associated material, that
-would be great! GitHub has graciously granted us 25 free private repositories (public repositories
-are always unlimited), so we'd love to include your contributions.
-
-
-
 [TEALSK12]:        https://github.com/TEALSK12
 [TEALS]:           https://www.microsoft.com/en-us/teals
 [TEALS on GitHub]: https://tealsk12.github.io/
-[Kenney Chan]:     mailto:kencha@microsoft.com
+
